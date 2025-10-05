@@ -26,7 +26,7 @@ body {
 	background-color: var(--background-color);
 }
 
-/* Estilos do cabeçalho */
+
 header {
 	margin-top: 2rem;
 	margin-bottom: 4rem;
@@ -42,14 +42,6 @@ header h1 {
 	font-size: 2.6rem;
 }
 
-/* Media query para cabeçalho em telas menores */
-@media (max-width: 768px) {
-	header h1 {
-		font-size: 1.6rem;
-	}
-}
-
-/* Estilos para botões e inputs de botão/submit */
 button,
 input[type="button"],
 input[type="submit"] {
@@ -65,7 +57,7 @@ input[type="submit"] {
 	cursor: pointer;
 }
 
-/* Estilos de hover/focus/active para botões e inputs */
+
 button:hover,
 button:focus,
 button:active,
