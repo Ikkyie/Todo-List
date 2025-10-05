@@ -53,13 +53,12 @@ yaml
 
 1. Clone or download this repository:  
    ```bash
-   git clone https://github.com/yourusername/php-todo-list.git
+   git clone https://github.com/Ikkyie/php-todo-list.git
 Place the project folder inside your local server directory (e.g., htdocs for XAMPP or www for WAMP`).
 
 Start your local PHP server:
 
 bash
-Copiar código
 php -S localhost:8000
 Open your browser and navigate to:
 
@@ -69,7 +68,6 @@ Add, delete, and manage your tasks!
 
 🧩 Example of Core Logic
 php
-Copiar código
 if (isset($_POST["tasktext"])) {
     $tasktext = htmlspecialchars($_POST["tasktext"]);
     $_SESSION["tasks"][] = $tasktext;
